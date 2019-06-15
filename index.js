@@ -13,7 +13,7 @@ let johnLennonFacts = (arr) =>{
   let i = 0;
   let facts = [];
   while(i < arr.length){
-    facts.push(arr[i] + "!");
+    facts.push(`${arr[i]}!`);
     i++;
   }
   return facts
