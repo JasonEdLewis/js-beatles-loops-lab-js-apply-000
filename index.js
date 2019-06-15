@@ -18,4 +18,8 @@ let johnLennonFacts = (arr) =>{
   return facts
   
 };
+let iLoveTheBeatles = (num) =>{
+  
+  
+}
 
