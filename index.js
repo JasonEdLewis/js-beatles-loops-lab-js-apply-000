@@ -25,7 +25,7 @@ let iLoveTheBeatles = (num) =>{
   do{
     loveArr.push("I love the Beatles!")
     count++;
-  }while(count <= num);
+  }while(count === num);
   return loveArr
 }
 
