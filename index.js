@@ -20,7 +20,8 @@ let johnLennonFacts = (arr) =>{
 };
 let iLoveTheBeatles = (num) =>{
   let loveArr = [];
-  do(loveArr.push())
+  do{
+    loveArr.push()}
   
 }
 
