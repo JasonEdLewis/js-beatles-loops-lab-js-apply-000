@@ -12,7 +12,7 @@ let theBeatlesPlay = (a, b)=>{
 let johnLennonFacts = (arr) =>{
   let i = 0;
   let facts = [];
-  while(connt < arr.length){
+  while(i < arr.length){
     facts.push(arr[i] + "!");
     i++;
   }
@@ -25,7 +25,7 @@ let iLoveTheBeatles = (num) =>{
   do{
     loveArr.push("I love the Beatles!")
     count++;
-  }while(count < num);
+  }while(count <= num);
   return loveArr
 }
 
