@@ -22,10 +22,16 @@ let johnLennonFacts = (arr) =>{
 let iLoveTheBeatles = (num) =>{
   let loveArr = [];
   let count = 0;
+  if(num > 15){
+    loveArr.push("I love the Beatles!");
+    return loveArr;
+  }
+  
   do{
     loveArr.push("I love the Beatles!")
     count++;
-  }while(count !== num);
-  return loveArr
+  }while(count < num);
+   return loveArr;
+ 
 }
 
