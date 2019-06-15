@@ -20,8 +20,9 @@ let johnLennonFacts = (arr) =>{
 };
 let iLoveTheBeatles = (num) =>{
   let loveArr = [];
+  let count = 0;
   do{
-    loveArr.push()}
+    loveArr.push("I love the Beatles!")}
   
-}
+}while(count < num)
 
