@@ -22,7 +22,9 @@ let iLoveTheBeatles = (num) =>{
   let loveArr = [];
   let count = 0;
   do{
-    loveArr.push("I love the Beatles!")}
+    loveArr.push("I love the Beatles!")
+    count++;
+  }while(count < num);
   
-}while(count < num)
+}
 
